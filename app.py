@@ -8,7 +8,7 @@ import streamlit as st
 # CONFIGURATION
 # -------------------------------------------------
 
-API_KEY = os.getenv("ETHERSCAN_API_KEY")
+API_KEY = st.secrets["ETHERSCAN_API_KEY"]
 API_URL = "https://api.etherscan.io/v2/api"
 
 
